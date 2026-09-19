@@ -1,0 +1,37 @@
+
+body {
+    background-color: #f4f6f9 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar-dark {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+    border-bottom: 3px solid #ffc107; 
+}
+
+
+.card {
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px); 
+}
+
+
+.login-card {
+    border-radius: 15px !important;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+
+.table-light {
+    background-color: #e9ecef !important;
+    color: #495057 !important;
+    font-weight: bold;
+}
